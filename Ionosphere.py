@@ -41,8 +41,6 @@ classifier.fit(X_train, Y_train)
 # Predicting the result
 Y_pred = classifier.predict(X_test)
 
-Y_pred , Y_test
-
 # cross validating results using confusion matrix
 from sklearn.metrics import confusion_matrix
 cm  = confusion_matrix(Y_test , Y_pred)
